@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "test-helloworld-sonal"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-17gx8686as2he"
+s3_prefix = "test-helloworld-sonal"
+region = "us-west-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
